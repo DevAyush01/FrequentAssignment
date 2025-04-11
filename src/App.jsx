@@ -184,12 +184,12 @@ export default function App() {
         {/* Golden rule section  */}
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-6 py-6 px-4">
           {/* Heart icon */}
-          <div className="w-full lg:w-1/5 flex justify-center">
-            <img src={heart} alt="Heart Icon" className="w-32 h-32" />
+          <div className="w-full lg:w-1/5 flex justify-start">
+            <img src={heart} alt="Heart Icon" className="w-34 h-34" />
           </div>
 
           {/* Golden rule */}
-          <div className="w-full lg:w-3/5 text-center lg:text-left flex flex-col items-center lg:items-start justify-center">
+          <div className="w-full lg:w-3/5 text-center lg:text-center flex flex-col items-center lg:items-center justify-center">
             <p className="text-xl">We live and work by the</p>
             <p className="text-5xl lg:text-6xl text-[#f39c12] font-playfair font-bold">
               GOLDEN RULE
@@ -226,7 +226,7 @@ export default function App() {
         {/* Cards Section  */}
         <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
   {/* Card 1 */}
-  <div className="shadow-xl">
+  <div className="shadow-xl bg-white">
     <div className="flex items-center justify-center border-b-2 border-b-gray-200">
       <img src={pencil} alt="Pencil in Hand" className="h-64 object-contain" />
     </div>
@@ -243,7 +243,7 @@ export default function App() {
   </div>
 
   {/* Card 2 */}
-  <div className="shadow-xl">
+  <div className="shadow-xl bg-white">
     <div className="flex items-center justify-center border-b-2 border-b-gray-200">
       <img src={handShake} alt="Hand Shake" className="h-64 object-contain" />
     </div>
@@ -263,7 +263,7 @@ export default function App() {
   </div>
 
   {/* Card 3 */}
-  <div className="shadow-xl">
+  <div className="shadow-xl bg-white">
     <div className="flex items-center justify-center border-b-2 border-b-gray-200">
       <img src={target} alt="Target" className="h-64 object-contain" />
     </div>
