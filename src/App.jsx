@@ -184,7 +184,7 @@ export default function App() {
         {/* Golden rule section  */}
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-6 py-6 px-4">
           {/* Heart icon */}
-          <div className="w-full lg:w-1/5 flex justify-start">
+          <div className="w-full lg:w-1/5 flex lg:justify-start justify-center">
             <img src={heart} alt="Heart Icon" className="w-34 h-34" />
           </div>
 
