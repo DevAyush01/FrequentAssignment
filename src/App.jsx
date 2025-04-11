@@ -200,7 +200,7 @@ export default function App() {
           </div>
         </div>
 
-        <span className="block bg-primary h-2 w-full"></span>
+        <span className="block bg-primary h-2 max-w-7xl mx-auto"></span>
         {/* Who Section */}
         <div className="flex  max-w-7xl mx-auto lg:mx-auto ml-4">
           <div className="h-24 w-0.5 bg-secondary" />
